@@ -1,0 +1,38 @@
+---
+layout: "base.njk"
+
+headline: "I'm Vitalii Kazakevich,<br><span class=\"text-[#2742b4]\">a Software Engineer</span>"
+
+about: "I'm a passionate software developer with 10 years of experience.
+    My main area of work is web programming. Besides that, I have
+    a bachelor's degree in computer science and would love to apply
+    my expertise to any task if it's needed for business."
+---
+
+<main class="mx-auto w-full max-w-lg grid justify-items-center mb-10">
+  <img
+    src="/images/Untitled@2x.jpg"
+    class="w-48 h-48 object-cover rounded-full mb-10 p-1 border-4 border-[#2742b4]"
+    alt="it's me"
+  >
+
+  <h1 class="text-4xl text-center">
+    {{ headline | safe }}
+  </h1>
+
+  <p class="mt-10 text-[#39362c] text-justify">{{ about }}</p>
+
+  <div class="mt-10 grid gap-5 w-full">
+    {%- for link in socials %}
+      <a href="{{ link.url }}" class="block rounded-lg p-4 border border-[#c5cdef] hover:bg-[#dbe2ff] transition duration-500" target="_blank">
+        <div class="flex items-center">
+          <img src="{{ link.icon }}" class="w-12 h-12 shrink-0">
+          <div class="ml-5">
+            <h2 class="">{{ link.name }}</h2>
+            <p class="text-sm mt-1 text-[#39362c]">{{ link.note }}</p>
+          </div>
+        </div>
+      </a>
+    {%- endfor %}
+  </div>
+</main>

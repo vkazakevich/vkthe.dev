@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://twitter.com/VKazakevichDev",
+    "name": "Twitter",
+    "note": "@VKazakevichDev",
+    "icon": "/images/icons/x.svg"
+  },
+  {
+    "url": "https://github.com/vkazakevich",
+    "name": "GitHub",
+    "note": "@vkazakevich",
+    "icon": "/images/icons/github.svg"
+  },
+  {
+    "url": "https://www.linkedin.com/in/vkazakevich/",
+    "name": "LinkedIn",
+    "note": "@vkazakevich",
+    "icon": "/images/icons/linkedin.svg"
+  },
+  {
+    "url": "https://www.youtube.com/@CodeSeals",
+    "name": "YouTube",
+    "note": "@CodeSeals",
+    "icon": "/images/icons/youtube.svg"
+  }
+]
