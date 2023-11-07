@@ -3,10 +3,10 @@ layout: "base.njk"
 
 headline: "I'm Vitalii Kazakevich,<br><span class=\"text-[#304bbc]\">a Software Engineer</span>"
 
-about: "I'm a passionate software developer with 10 years of experience.
-    My main area of work is web programming. Besides that, I have
-    a bachelor's degree in computer science and would love to apply
-    my expertise to any task if it's needed for business."
+about: "I'm a passionate software developer with 10 years of experience
+    and a bachelor's degree in computer science.
+    My main area of work is web programming.
+    Current place of residence is Kraków, Poland 🇵🇱"
 ---
 
 <main class="mx-auto w-full max-w-lg grid justify-items-center mb-10">
@@ -20,7 +20,7 @@ about: "I'm a passionate software developer with 10 years of experience.
     {{ headline | safe }}
   </h1>
 
-  <p class="mt-10 text-[#39362c] text-justify">{{ about }}</p>
+  <p class="mt-10 text-[#39362c]">{{ about }}</p>
 
   <div class="mt-10 grid gap-6 md:gap-5 w-full">
     {%- for link in socials %}
