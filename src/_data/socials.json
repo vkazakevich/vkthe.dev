@@ -16,11 +16,5 @@
     "name": "GitHub",
     "note": "@vkazakevich",
     "icon": "/images/icons/github.svg"
-  },
-  {
-    "url": "https://www.youtube.com/@CodeSeals",
-    "name": "YouTube",
-    "note": "@CodeSeals",
-    "icon": "/images/icons/youtube.svg"
   }
 ]
