@@ -1,4 +1,4 @@
-# vkazakevich.com
+# vkthe.dev
 
 My personal web site.
 
